@@ -1,0 +1,155 @@
+.invoice-preview {
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, #f3f9ff, #ffffff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.invoice-preview h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #007bff;
+}
+
+.company-details {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.company-details h4 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.company-details p {
+  font-size: 15px;
+  color: #555;
+}
+
+.company-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.company-details a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.summary {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.summary p {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.summary .label {
+  font-weight: 500;
+  color: #333;
+}
+
+.summary .amount {
+  font-weight: bold;
+}
+
+.summary .blue {
+  color: #007bff;
+}
+
+.summary .orange {
+  color: #fd7e14;
+}
+
+.summary .green {
+  color: #28a745;
+}
+
+.payment-method {
+  margin-top: 10px;
+  font-style: italic;
+  color: #444;
+}
+
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px dashed #bbb;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer strong {
+  color: #333;
+}
+
+.footer .privacy {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #888;
+}
+
+.download-btn {
+  margin-top: 30px;
+  display: block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .invoice-preview {
+    padding: 20px;
+  }
+
+  table th, table td {
+    font-size: 14px;
+  }
+
+  .summary {
+    font-size: 14px;
+  }
+}

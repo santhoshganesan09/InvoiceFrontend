@@ -1,0 +1,138 @@
+.invoice-form {
+  max-width: 960px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.invoice-form h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #333;
+}
+
+.invoice-form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+.invoice-form input,
+.invoice-form select {
+  padding: 10px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 220px;
+  box-sizing: border-box;
+}
+
+.invoice-form button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.invoice-form button:hover {
+  background-color: #0056b3;
+}
+
+.invoice-form .save-btn {
+  background-color: #28a745;
+}
+
+.invoice-form .save-btn:hover {
+  background-color: #1e7e34;
+}
+
+.invoice-form table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.invoice-form th,
+.invoice-form td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.invoice-form td input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+@media (max-width: 768px) {
+  .invoice-form {
+    padding: 16px;
+  }
+
+  .invoice-form .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .invoice-form input,
+  .invoice-form select,
+  .invoice-form textarea,
+  .invoice-form button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .invoice-form h2 {
+    font-size: 24px;
+  }
+
+  .invoice-form table {
+    font-size: 14px;
+  }
+
+  .invoice-form td input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .delete-btn {
+    padding: 8px 10px;
+  }
+
+  .save-btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
